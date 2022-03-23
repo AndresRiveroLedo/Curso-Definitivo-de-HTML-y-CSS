@@ -1,0 +1,13 @@
+/*siempre que usarlo*/
+*{
+    box-sizing: border-box;/*recalcula ancho del dispositivo = width del elemento + padding del mimso elemento*/
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    padding: 20px 35px;
+}

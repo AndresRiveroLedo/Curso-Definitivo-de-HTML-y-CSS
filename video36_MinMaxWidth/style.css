@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    /*100vw ocupamos el 100% de la pantalla independiente del dispositivo*/
+    width: 100vw;
+    height: 100vh;
+    background-color: #4fff;
+}
+
+section {
+    width: 80%; /*width base en porcentaje. Siempre sera un 80% cuando se mueva dentro de los margenes de min/max width*/
+    min-width: 320px; /*Este será el ancho minimo de section*/
+    max-width: 500px; /*Este será el ancho maximo de section*/
+    min-height: 50px; /*En caso de texto nos vendrá muy bien. Evitamos que se salga de la caja section*/
+    margin: 0 auto;
+    background-color: red;
+}

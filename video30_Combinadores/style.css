@@ -1,0 +1,19 @@
+/*Hermano adyacente o cercano*/
+.sibling h2 + p{
+    color:red;
+}
+
+/*Hermano general - General Sibling*/
+.general h2 ~ p{
+    color: blue
+}
+
+/*Hijo directo*/
+.hijos div > p{
+    color: yellow;
+}
+
+/*Descendientes*/
+.descend div p{
+    color: pink;
+}
